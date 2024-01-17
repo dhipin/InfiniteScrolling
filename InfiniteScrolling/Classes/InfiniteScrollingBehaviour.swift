@@ -8,7 +8,7 @@
 
 import UIKit
 
-public protocol InfiniteScrollingBehaviourDelegate: class {
+public protocol InfiniteScrollingBehaviourDelegate: AnyObject {
     func configuredCell(forItemAtIndexPath indexPath: IndexPath, originalIndex: Int, andData data: InfiniteScollingData, forInfiniteScrollingBehaviour behaviour: InfiniteScrollingBehaviour) -> UICollectionViewCell
     func didSelectItem(atIndexPath indexPath: IndexPath, originalIndex: Int, andData data: InfiniteScollingData, inInfiniteScrollingBehaviour behaviour: InfiniteScrollingBehaviour) -> Void
     func didEndScrolling(inInfiniteScrollingBehaviour behaviour: InfiniteScrollingBehaviour)
@@ -61,6 +61,8 @@ public class InfiniteScrollingBehaviour: NSObject {
                 return collectionView.bounds.size.width
             case .vertical:
                 return collectionView.bounds.size.height
+            @unknown default:
+                return .zero
             }
         }
     }
@@ -72,6 +74,8 @@ public class InfiniteScrollingBehaviour: NSObject {
                 return collectionView.contentSize.width
             case .vertical:
                 return collectionView.contentSize.height
+            @unknown default:
+                return .zero
             }
         }
     }
@@ -220,6 +224,8 @@ extension InfiniteScrollingBehaviour: UICollectionViewDelegateFlowLayout {
             return CGSize(width: cellSize, height: collectionView.bounds.size.height)
         case (.vertical, _):
             return CGSize(width: collectionView.bounds.size.width, height: cellSize)
+        case (_, _):
+            return .zero
         }
     }
     

@@ -3,262 +3,302 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		100C2931FB96161CE66E6213B068C04B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		3930E1F63B22DCC5566EEDB39E034C16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		3F8119196B02EDA2C8C71B9DA0DFB342 /* InfiniteScrolling-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6570B92367DAC3EC2802200F4316A5 /* InfiniteScrolling-dummy.m */; };
-		43CF756B13C526BAAFD2B68CF0448696 /* Pods-InfiniteScrolling_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 230EE4DB9B46DE9F60FE14BF9BF03A44 /* Pods-InfiniteScrolling_Tests-dummy.m */; };
-		5A2EE37D8A21A45D308C966F8974C1C8 /* InfiniteScrolling-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3724CF6A240FE5DEC224904819BB2944 /* InfiniteScrolling-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79D8E582C2E9878D892B9C8F6C468D4B /* Pods-InfiniteScrolling_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E8D217E3FE928BB5CECA57B1D4EB7 /* Pods-InfiniteScrolling_Example-dummy.m */; };
-		87CF8EB19D37E0EA64EB676A471730D5 /* Pods-InfiniteScrolling_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A570CCA135482AD5B9B819CCA4FA5D55 /* Pods-InfiniteScrolling_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9996A1871AC3888CABE6B5224A1A8E2C /* InfiniteScrollingBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2DC9FEC8AFA2ED1D23D979F937DED3 /* InfiniteScrollingBehaviour.swift */; };
-		B91A97579003C2950F3555097611F169 /* Pods-InfiniteScrolling_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95CBDDAF996289BEFB6E1AC26840CB54 /* Pods-InfiniteScrolling_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D484C6A4DB81F8214BA63505FCCD5CAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		24588CBA8B6663982E275CFA8F22C5E1 /* InfiniteScrolling-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9016CEE73B6E1DF2E6A17A16EBF430 /* InfiniteScrolling-dummy.m */; };
+		632117A7CCE205A0F3043D5899E88ED2 /* Pods-InfiniteScrolling_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 278987CF32DD162FE052FE0ABF15E623 /* Pods-InfiniteScrolling_Example-dummy.m */; };
+		7E1AF71FD10B01D2504177077EDD8BB5 /* Pods-InfiniteScrolling_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF17D5A0FB9D89778CD9F0A3534EEA1F /* Pods-InfiniteScrolling_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94C00AA2453750EF7987216A85A2AE5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A442FFE495D4EACBE8F203BC391B2ECE /* Pods-InfiniteScrolling_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 521C846803C5FDB44D8040819AD690EF /* Pods-InfiniteScrolling_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0A6FCDF818EDFC1A109C9F18D5C1F6 /* InfiniteScrollingBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0864B817D9E0E705834F299108226 /* InfiniteScrollingBehaviour.swift */; };
+		AFB8BF6828C3B998C85A924E0FD4B520 /* Pods-InfiniteScrolling_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F52295DA8BEEB0650504C45338A1277 /* Pods-InfiniteScrolling_Tests-dummy.m */; };
+		B381365A7AD81FC8F0CCAF54D78465E1 /* InfiniteScrolling-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC72B946B8CF53F81A20A1614E0C96AD /* InfiniteScrolling-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E265F89D71843B7ED866A68115223CB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EC4A338DC29C92F3EF785A3CA5AC1163 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F41669D1C46BEB05DAC65B8CAFDE529C /* PBXContainerItemProxy */ = {
+		5FF236EAD4E4CB6AFBE42BB0A4621E5C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 305A08631FC7247F49A96FD3526F4E1C;
+			remoteGlobalIDString = D266C6A41D687EECD6BC8AAF8FB35760;
+			remoteInfo = "Pods-InfiniteScrolling_Example";
+		};
+		6897197748E0327806F1816F3E23B625 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4CB4B1BF745EEC1837991EF466D9EDA;
 			remoteInfo = InfiniteScrolling;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0369819886A49DBA73237A14F70E9448 /* Pods-InfiniteScrolling_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InfiniteScrolling_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		0A2AAB9340B6A17CF1171431FCB34158 /* Pods-InfiniteScrolling_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-InfiniteScrolling_Example.modulemap"; sourceTree = "<group>"; };
-		0EB7B04A2F58E882085A89D1819AE1F4 /* Pods-InfiniteScrolling_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InfiniteScrolling_Example-resources.sh"; sourceTree = "<group>"; };
-		0F18F935A9A8DA5C7EED1C69E5A86238 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		17E55B5EE5250B6677E793E061E17CC8 /* Pods-InfiniteScrolling_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InfiniteScrolling_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		230EE4DB9B46DE9F60FE14BF9BF03A44 /* Pods-InfiniteScrolling_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InfiniteScrolling_Tests-dummy.m"; sourceTree = "<group>"; };
-		2AACC1D7BD89AA684C934A425F2B59A0 /* Pods-InfiniteScrolling_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InfiniteScrolling_Tests-resources.sh"; sourceTree = "<group>"; };
-		3724CF6A240FE5DEC224904819BB2944 /* InfiniteScrolling-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InfiniteScrolling-umbrella.h"; sourceTree = "<group>"; };
-		3F0E8D217E3FE928BB5CECA57B1D4EB7 /* Pods-InfiniteScrolling_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InfiniteScrolling_Example-dummy.m"; sourceTree = "<group>"; };
-		4E0F6B7386E2194B55404CE980415936 /* Pods-InfiniteScrolling_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InfiniteScrolling_Example-frameworks.sh"; sourceTree = "<group>"; };
-		612B7571277611A83E92515B815BE4D3 /* InfiniteScrolling.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InfiniteScrolling.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A26811E05BE20C23C4ABC34C39C3835 /* Pods-InfiniteScrolling_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-InfiniteScrolling_Tests.modulemap"; sourceTree = "<group>"; };
-		7C51AB85920205AD043CD3410614CA2A /* Pods-InfiniteScrolling_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InfiniteScrolling_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		7FC262B49C3F9181DC1A0CD9128733BB /* Pods-InfiniteScrolling_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InfiniteScrolling_Example.release.xcconfig"; sourceTree = "<group>"; };
-		939B0E43A97983FAA499A290686A61E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94015D599CDC5DBCD2578552839852CF /* Pods-InfiniteScrolling_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InfiniteScrolling_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		95CBDDAF996289BEFB6E1AC26840CB54 /* Pods-InfiniteScrolling_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InfiniteScrolling_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9D391864B3A019A3BEF448BCF64D3FB2 /* Pods-InfiniteScrolling_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InfiniteScrolling_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9D6570B92367DAC3EC2802200F4316A5 /* InfiniteScrolling-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "InfiniteScrolling-dummy.m"; sourceTree = "<group>"; };
-		9E2DC9FEC8AFA2ED1D23D979F937DED3 /* InfiniteScrollingBehaviour.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InfiniteScrollingBehaviour.swift; sourceTree = "<group>"; };
-		A4545C64D1C1867D4CE6E44B5DB60376 /* InfiniteScrolling.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InfiniteScrolling.xcconfig; sourceTree = "<group>"; };
-		A570CCA135482AD5B9B819CCA4FA5D55 /* Pods-InfiniteScrolling_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InfiniteScrolling_Example-umbrella.h"; sourceTree = "<group>"; };
-		B6387E78E646B4859593C698F550A935 /* InfiniteScrolling-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InfiniteScrolling-prefix.pch"; sourceTree = "<group>"; };
-		B80D98405397FD12F17B0EC6DFB2FE10 /* Pods-InfiniteScrolling_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InfiniteScrolling_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		BCB7D7099E56C13050D86C053F8AAA29 /* Pods-InfiniteScrolling_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InfiniteScrolling_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C08BEA88EF3F5C2D7E60FE61210FBC5C /* Pods_InfiniteScrolling_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InfiniteScrolling_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D3594EAB615A933DCC808226BAA155E8 /* Pods-InfiniteScrolling_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InfiniteScrolling_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D7FA283198649D06DD5EC056E9283E70 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA4A3D0289B4343E3DC9063D2DC9698D /* Pods_InfiniteScrolling_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InfiniteScrolling_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE93B30D1ECB2D065FF7CB773FB32A7E /* InfiniteScrolling.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = InfiniteScrolling.modulemap; sourceTree = "<group>"; };
+		0145FDF7C94C0B1FBE1EA803B6446D55 /* Pods-InfiniteScrolling_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InfiniteScrolling_Example-Info.plist"; sourceTree = "<group>"; };
+		02EE27449C4B10C398E404A36875F579 /* Pods-InfiniteScrolling_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InfiniteScrolling_Example-frameworks.sh"; sourceTree = "<group>"; };
+		05ADB86BBDE056C1A7DF35F23F844DD5 /* Pods-InfiniteScrolling_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-InfiniteScrolling_Tests.modulemap"; sourceTree = "<group>"; };
+		0807C80EDBD8BC202B33F1DB533582A7 /* Pods-InfiniteScrolling_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InfiniteScrolling_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0E009022DFC508FF9196C55182B73FC4 /* Pods-InfiniteScrolling_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InfiniteScrolling_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		10C0864B817D9E0E705834F299108226 /* InfiniteScrollingBehaviour.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InfiniteScrollingBehaviour.swift; path = InfiniteScrolling/Classes/InfiniteScrollingBehaviour.swift; sourceTree = "<group>"; };
+		2758A2C9FFD7CF4544D4A34CCEE80D7A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		278987CF32DD162FE052FE0ABF15E623 /* Pods-InfiniteScrolling_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InfiniteScrolling_Example-dummy.m"; sourceTree = "<group>"; };
+		28C7523F54E89C8C92095BB449D0F1AE /* Pods-InfiniteScrolling_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InfiniteScrolling_Tests-Info.plist"; sourceTree = "<group>"; };
+		3F52295DA8BEEB0650504C45338A1277 /* Pods-InfiniteScrolling_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InfiniteScrolling_Tests-dummy.m"; sourceTree = "<group>"; };
+		4F2F5A8F4E8A2C4B2E5140A99C779F52 /* InfiniteScrolling.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InfiniteScrolling.release.xcconfig; sourceTree = "<group>"; };
+		521C846803C5FDB44D8040819AD690EF /* Pods-InfiniteScrolling_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InfiniteScrolling_Example-umbrella.h"; sourceTree = "<group>"; };
+		6E7A9719BF59BE60A731674B33C5742D /* Pods-InfiniteScrolling_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InfiniteScrolling_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		745DEF350C53FC165C7D8298C803FE2E /* InfiniteScrolling.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InfiniteScrolling.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F1C933F7A30C0781F6C48E5E01D295B /* InfiniteScrolling-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "InfiniteScrolling-Info.plist"; sourceTree = "<group>"; };
+		7FB2C114669562158521D357865CD888 /* Pods-InfiniteScrolling_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InfiniteScrolling_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8B610E75F148AB2A9D1A2B9A721BC9CB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9AFCDE9721B4A2A353847B9FCD2444B5 /* Pods-InfiniteScrolling_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InfiniteScrolling_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9B53E0DF9825373974F6A6B91F5EB780 /* Pods_InfiniteScrolling_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InfiniteScrolling_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A72CF9ED25503173592B231444D4AA0C /* Pods-InfiniteScrolling_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InfiniteScrolling_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A8D71D532BD696A08485B910E45057CF /* InfiniteScrolling-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InfiniteScrolling-prefix.pch"; sourceTree = "<group>"; };
+		AE2F7D2BACDB432F46DD503FF2378041 /* Pods-InfiniteScrolling_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InfiniteScrolling_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B6A82F11B1131AFD298D33D29771698F /* InfiniteScrolling.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = InfiniteScrolling.modulemap; sourceTree = "<group>"; };
+		BC72B946B8CF53F81A20A1614E0C96AD /* InfiniteScrolling-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InfiniteScrolling-umbrella.h"; sourceTree = "<group>"; };
+		C04C082F5F59B4C58F0BA6B564685E6E /* InfiniteScrolling.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = InfiniteScrolling.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CF17D5A0FB9D89778CD9F0A3534EEA1F /* Pods-InfiniteScrolling_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InfiniteScrolling_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D5B76B691EF11008A483CD549A022D55 /* InfiniteScrolling.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InfiniteScrolling.debug.xcconfig; sourceTree = "<group>"; };
+		DA9016CEE73B6E1DF2E6A17A16EBF430 /* InfiniteScrolling-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "InfiniteScrolling-dummy.m"; sourceTree = "<group>"; };
+		E90E740ECA527F88082F2B8B183A4487 /* Pods-InfiniteScrolling_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InfiniteScrolling_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB33E8569F9E432DF68D0D593FC13F3C /* Pods-InfiniteScrolling_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-InfiniteScrolling_Example.modulemap"; sourceTree = "<group>"; };
+		FE403D152EC320F6E1257E948507F344 /* Pods_InfiniteScrolling_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InfiniteScrolling_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		634E35C130806D42483F3E4C240DFEC2 /* Frameworks */ = {
+		1BC36139877DB1EB3EE0E836F32E50CA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				100C2931FB96161CE66E6213B068C04B /* Foundation.framework in Frameworks */,
+				94C00AA2453750EF7987216A85A2AE5B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9122F42BC46BDD42C8D167EB898C1A16 /* Frameworks */ = {
+		8EA7A6AE6C2F5183D8CB6052C8D90D82 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D484C6A4DB81F8214BA63505FCCD5CAD /* Foundation.framework in Frameworks */,
+				EC4A338DC29C92F3EF785A3CA5AC1163 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E10EECDC9BEF7097360F1979C91066C4 /* Frameworks */ = {
+		D52E8C876AB62D0979079D06694004D7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3930E1F63B22DCC5566EEDB39E034C16 /* Foundation.framework in Frameworks */,
+				E265F89D71843B7ED866A68115223CB0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C502E509F2C4C5126317683500BE14E /* Development Pods */ = {
+		0E53F2065074128F53202EDE5656BFC0 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E64888770B27122C442FE9651ECA8947 /* InfiniteScrolling */,
+				C04C082F5F59B4C58F0BA6B564685E6E /* InfiniteScrolling.podspec */,
+				2758A2C9FFD7CF4544D4A34CCEE80D7A /* LICENSE */,
+				8B610E75F148AB2A9D1A2B9A721BC9CB /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		1F93D827724C6FFD950BC87EF0F4A8CB /* Support Files */ = {
+		1080FBC4EACFD6203EA8C27B2D1BC059 /* InfiniteScrolling */ = {
 			isa = PBXGroup;
 			children = (
-				FE93B30D1ECB2D065FF7CB773FB32A7E /* InfiniteScrolling.modulemap */,
-				A4545C64D1C1867D4CE6E44B5DB60376 /* InfiniteScrolling.xcconfig */,
-				9D6570B92367DAC3EC2802200F4316A5 /* InfiniteScrolling-dummy.m */,
-				B6387E78E646B4859593C698F550A935 /* InfiniteScrolling-prefix.pch */,
-				3724CF6A240FE5DEC224904819BB2944 /* InfiniteScrolling-umbrella.h */,
-				D7FA283198649D06DD5EC056E9283E70 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/InfiniteScrolling";
-			sourceTree = "<group>";
-		};
-		2AF036E7D5016F9386E47DB3C32DF7B9 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				9E2DC9FEC8AFA2ED1D23D979F937DED3 /* InfiniteScrollingBehaviour.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		45DF2AF06177892C5AB9482C65F56B3C /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B011AC049F129E804C2D4134CBF71B73 /* Pods-InfiniteScrolling_Example */,
-				9580FDF827B3C012C7E6E06C633352FF /* Pods-InfiniteScrolling_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				0C502E509F2C4C5126317683500BE14E /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				976EAC5C35B795DCA576B01E6AFB18E8 /* Products */,
-				45DF2AF06177892C5AB9482C65F56B3C /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		9580FDF827B3C012C7E6E06C633352FF /* Pods-InfiniteScrolling_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				0F18F935A9A8DA5C7EED1C69E5A86238 /* Info.plist */,
-				6A26811E05BE20C23C4ABC34C39C3835 /* Pods-InfiniteScrolling_Tests.modulemap */,
-				D3594EAB615A933DCC808226BAA155E8 /* Pods-InfiniteScrolling_Tests-acknowledgements.markdown */,
-				BCB7D7099E56C13050D86C053F8AAA29 /* Pods-InfiniteScrolling_Tests-acknowledgements.plist */,
-				230EE4DB9B46DE9F60FE14BF9BF03A44 /* Pods-InfiniteScrolling_Tests-dummy.m */,
-				B80D98405397FD12F17B0EC6DFB2FE10 /* Pods-InfiniteScrolling_Tests-frameworks.sh */,
-				2AACC1D7BD89AA684C934A425F2B59A0 /* Pods-InfiniteScrolling_Tests-resources.sh */,
-				95CBDDAF996289BEFB6E1AC26840CB54 /* Pods-InfiniteScrolling_Tests-umbrella.h */,
-				94015D599CDC5DBCD2578552839852CF /* Pods-InfiniteScrolling_Tests.debug.xcconfig */,
-				0369819886A49DBA73237A14F70E9448 /* Pods-InfiniteScrolling_Tests.release.xcconfig */,
-			);
-			name = "Pods-InfiniteScrolling_Tests";
-			path = "Target Support Files/Pods-InfiniteScrolling_Tests";
-			sourceTree = "<group>";
-		};
-		976EAC5C35B795DCA576B01E6AFB18E8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				612B7571277611A83E92515B815BE4D3 /* InfiniteScrolling.framework */,
-				DA4A3D0289B4343E3DC9063D2DC9698D /* Pods_InfiniteScrolling_Example.framework */,
-				C08BEA88EF3F5C2D7E60FE61210FBC5C /* Pods_InfiniteScrolling_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B011AC049F129E804C2D4134CBF71B73 /* Pods-InfiniteScrolling_Example */ = {
-			isa = PBXGroup;
-			children = (
-				939B0E43A97983FAA499A290686A61E0 /* Info.plist */,
-				0A2AAB9340B6A17CF1171431FCB34158 /* Pods-InfiniteScrolling_Example.modulemap */,
-				17E55B5EE5250B6677E793E061E17CC8 /* Pods-InfiniteScrolling_Example-acknowledgements.markdown */,
-				7C51AB85920205AD043CD3410614CA2A /* Pods-InfiniteScrolling_Example-acknowledgements.plist */,
-				3F0E8D217E3FE928BB5CECA57B1D4EB7 /* Pods-InfiniteScrolling_Example-dummy.m */,
-				4E0F6B7386E2194B55404CE980415936 /* Pods-InfiniteScrolling_Example-frameworks.sh */,
-				0EB7B04A2F58E882085A89D1819AE1F4 /* Pods-InfiniteScrolling_Example-resources.sh */,
-				A570CCA135482AD5B9B819CCA4FA5D55 /* Pods-InfiniteScrolling_Example-umbrella.h */,
-				9D391864B3A019A3BEF448BCF64D3FB2 /* Pods-InfiniteScrolling_Example.debug.xcconfig */,
-				7FC262B49C3F9181DC1A0CD9128733BB /* Pods-InfiniteScrolling_Example.release.xcconfig */,
-			);
-			name = "Pods-InfiniteScrolling_Example";
-			path = "Target Support Files/Pods-InfiniteScrolling_Example";
-			sourceTree = "<group>";
-		};
-		B551FFE6D22556DD0127CBE2494A0114 /* InfiniteScrolling */ = {
-			isa = PBXGroup;
-			children = (
-				2AF036E7D5016F9386E47DB3C32DF7B9 /* Classes */,
-			);
-			path = InfiniteScrolling;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E64888770B27122C442FE9651ECA8947 /* InfiniteScrolling */ = {
-			isa = PBXGroup;
-			children = (
-				B551FFE6D22556DD0127CBE2494A0114 /* InfiniteScrolling */,
-				1F93D827724C6FFD950BC87EF0F4A8CB /* Support Files */,
+				10C0864B817D9E0E705834F299108226 /* InfiniteScrollingBehaviour.swift */,
+				0E53F2065074128F53202EDE5656BFC0 /* Pod */,
+				5F9ABF49D14B028070C38F86C902A3FB /* Support Files */,
 			);
 			name = InfiniteScrolling;
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5F9ABF49D14B028070C38F86C902A3FB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6A82F11B1131AFD298D33D29771698F /* InfiniteScrolling.modulemap */,
+				DA9016CEE73B6E1DF2E6A17A16EBF430 /* InfiniteScrolling-dummy.m */,
+				7F1C933F7A30C0781F6C48E5E01D295B /* InfiniteScrolling-Info.plist */,
+				A8D71D532BD696A08485B910E45057CF /* InfiniteScrolling-prefix.pch */,
+				BC72B946B8CF53F81A20A1614E0C96AD /* InfiniteScrolling-umbrella.h */,
+				D5B76B691EF11008A483CD549A022D55 /* InfiniteScrolling.debug.xcconfig */,
+				4F2F5A8F4E8A2C4B2E5140A99C779F52 /* InfiniteScrolling.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/InfiniteScrolling";
+			sourceTree = "<group>";
+		};
+		71409C69B13959714AFCEA41D59451B1 /* Pods-InfiniteScrolling_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FB33E8569F9E432DF68D0D593FC13F3C /* Pods-InfiniteScrolling_Example.modulemap */,
+				AE2F7D2BACDB432F46DD503FF2378041 /* Pods-InfiniteScrolling_Example-acknowledgements.markdown */,
+				A72CF9ED25503173592B231444D4AA0C /* Pods-InfiniteScrolling_Example-acknowledgements.plist */,
+				278987CF32DD162FE052FE0ABF15E623 /* Pods-InfiniteScrolling_Example-dummy.m */,
+				02EE27449C4B10C398E404A36875F579 /* Pods-InfiniteScrolling_Example-frameworks.sh */,
+				0145FDF7C94C0B1FBE1EA803B6446D55 /* Pods-InfiniteScrolling_Example-Info.plist */,
+				521C846803C5FDB44D8040819AD690EF /* Pods-InfiniteScrolling_Example-umbrella.h */,
+				6E7A9719BF59BE60A731674B33C5742D /* Pods-InfiniteScrolling_Example.debug.xcconfig */,
+				7FB2C114669562158521D357865CD888 /* Pods-InfiniteScrolling_Example.release.xcconfig */,
+			);
+			name = "Pods-InfiniteScrolling_Example";
+			path = "Target Support Files/Pods-InfiniteScrolling_Example";
+			sourceTree = "<group>";
+		};
+		C28648B96B1369D9C4E841C998AF657F /* Pods-InfiniteScrolling_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				05ADB86BBDE056C1A7DF35F23F844DD5 /* Pods-InfiniteScrolling_Tests.modulemap */,
+				9AFCDE9721B4A2A353847B9FCD2444B5 /* Pods-InfiniteScrolling_Tests-acknowledgements.markdown */,
+				0807C80EDBD8BC202B33F1DB533582A7 /* Pods-InfiniteScrolling_Tests-acknowledgements.plist */,
+				3F52295DA8BEEB0650504C45338A1277 /* Pods-InfiniteScrolling_Tests-dummy.m */,
+				28C7523F54E89C8C92095BB449D0F1AE /* Pods-InfiniteScrolling_Tests-Info.plist */,
+				CF17D5A0FB9D89778CD9F0A3534EEA1F /* Pods-InfiniteScrolling_Tests-umbrella.h */,
+				E90E740ECA527F88082F2B8B183A4487 /* Pods-InfiniteScrolling_Tests.debug.xcconfig */,
+				0E009022DFC508FF9196C55182B73FC4 /* Pods-InfiniteScrolling_Tests.release.xcconfig */,
+			);
+			name = "Pods-InfiniteScrolling_Tests";
+			path = "Target Support Files/Pods-InfiniteScrolling_Tests";
+			sourceTree = "<group>";
+		};
+		CAE3499725BCF28FD98DB77B44EB77FA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				71409C69B13959714AFCEA41D59451B1 /* Pods-InfiniteScrolling_Example */,
+				C28648B96B1369D9C4E841C998AF657F /* Pods-InfiniteScrolling_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D4C8D5CF424709AB6D3DBCCF18FFF6BB /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				FFC7FD53118BC479E910C6742AEDD6A5 /* Products */,
+				CAE3499725BCF28FD98DB77B44EB77FA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4C8D5CF424709AB6D3DBCCF18FFF6BB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1080FBC4EACFD6203EA8C27B2D1BC059 /* InfiniteScrolling */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FFC7FD53118BC479E910C6742AEDD6A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				745DEF350C53FC165C7D8298C803FE2E /* InfiniteScrolling.framework */,
+				9B53E0DF9825373974F6A6B91F5EB780 /* Pods_InfiniteScrolling_Example.framework */,
+				FE403D152EC320F6E1257E948507F344 /* Pods_InfiniteScrolling_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0F2486956EDF91900137617A5E7B84DD /* Headers */ = {
+		B8B28795893233B88E300406EF9532ED /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87CF8EB19D37E0EA64EB676A471730D5 /* Pods-InfiniteScrolling_Example-umbrella.h in Headers */,
+				7E1AF71FD10B01D2504177077EDD8BB5 /* Pods-InfiniteScrolling_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5BCFCD7898A526836FB487FBBBB028A9 /* Headers */ = {
+		BF96C89108406A3098F3D74C3812E5B9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B91A97579003C2950F3555097611F169 /* Pods-InfiniteScrolling_Tests-umbrella.h in Headers */,
+				B381365A7AD81FC8F0CCAF54D78465E1 /* InfiniteScrolling-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8EA0BE1174ADF479E22BA2D5DA957E2 /* Headers */ = {
+		D37C3C8779FD176853F868E71898D57F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A2EE37D8A21A45D308C966F8974C1C8 /* InfiniteScrolling-umbrella.h in Headers */,
+				A442FFE495D4EACBE8F203BC391B2ECE /* Pods-InfiniteScrolling_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		305A08631FC7247F49A96FD3526F4E1C /* InfiniteScrolling */ = {
+		6CC52F780F4ECA010465756E6A159CC5 /* Pods-InfiniteScrolling_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E0A62350D4858F9CA00BEE940136276F /* Build configuration list for PBXNativeTarget "InfiniteScrolling" */;
+			buildConfigurationList = 1CA0F601AF0E5F509B789FA46A9055D2 /* Build configuration list for PBXNativeTarget "Pods-InfiniteScrolling_Tests" */;
 			buildPhases = (
-				FF5684B6973A85FB951B732FC6EA04AF /* Sources */,
-				634E35C130806D42483F3E4C240DFEC2 /* Frameworks */,
-				A8EA0BE1174ADF479E22BA2D5DA957E2 /* Headers */,
+				B8B28795893233B88E300406EF9532ED /* Headers */,
+				E271B018FDCC660F492EE6DB9B2DAE66 /* Sources */,
+				8EA7A6AE6C2F5183D8CB6052C8D90D82 /* Frameworks */,
+				7A0C529AD6C2011059979002E52B3991 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1EB083EF87CC38CC4DBBDE459243EA5 /* PBXTargetDependency */,
+			);
+			name = "Pods-InfiniteScrolling_Tests";
+			productName = Pods_InfiniteScrolling_Tests;
+			productReference = FE403D152EC320F6E1257E948507F344 /* Pods_InfiniteScrolling_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D266C6A41D687EECD6BC8AAF8FB35760 /* Pods-InfiniteScrolling_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F09E45D2E79078147C771DB7F521328 /* Build configuration list for PBXNativeTarget "Pods-InfiniteScrolling_Example" */;
+			buildPhases = (
+				D37C3C8779FD176853F868E71898D57F /* Headers */,
+				115758E6D24A4ADB9C793291095E8A3B /* Sources */,
+				D52E8C876AB62D0979079D06694004D7 /* Frameworks */,
+				1D890E6192F909458E0C45B1F80044D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4B90C5A14371DA6FBB378BAA91AF96B /* PBXTargetDependency */,
+			);
+			name = "Pods-InfiniteScrolling_Example";
+			productName = Pods_InfiniteScrolling_Example;
+			productReference = 9B53E0DF9825373974F6A6B91F5EB780 /* Pods_InfiniteScrolling_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F4CB4B1BF745EEC1837991EF466D9EDA /* InfiniteScrolling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D7F14B6938B7F2CC28E5E104159BC7B /* Build configuration list for PBXNativeTarget "InfiniteScrolling" */;
+			buildPhases = (
+				BF96C89108406A3098F3D74C3812E5B9 /* Headers */,
+				EA3F832EF7457BFBAE49DFF69D6BFF2D /* Sources */,
+				1BC36139877DB1EB3EE0E836F32E50CA /* Frameworks */,
+				8BC50B08E22F4D43581F5D9EFBFB9E48 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -266,206 +306,137 @@
 			);
 			name = InfiniteScrolling;
 			productName = InfiniteScrolling;
-			productReference = 612B7571277611A83E92515B815BE4D3 /* InfiniteScrolling.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		4605A867A913B56DF4E858EAAA565417 /* Pods-InfiniteScrolling_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5475884A6A8417B9892FCAF8146634C8 /* Build configuration list for PBXNativeTarget "Pods-InfiniteScrolling_Example" */;
-			buildPhases = (
-				6B31A7D92EF708EDF635647E9C39D8E0 /* Sources */,
-				9122F42BC46BDD42C8D167EB898C1A16 /* Frameworks */,
-				0F2486956EDF91900137617A5E7B84DD /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8716295E17836A41CB662805AA944CCB /* PBXTargetDependency */,
-			);
-			name = "Pods-InfiniteScrolling_Example";
-			productName = "Pods-InfiniteScrolling_Example";
-			productReference = DA4A3D0289B4343E3DC9063D2DC9698D /* Pods_InfiniteScrolling_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		74608B0BA0F2DC599600AAA813E49ED3 /* Pods-InfiniteScrolling_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7561F157C690763265A33BC53175CE73 /* Build configuration list for PBXNativeTarget "Pods-InfiniteScrolling_Tests" */;
-			buildPhases = (
-				F520A8687892E8463ED3336E4C74B94A /* Sources */,
-				E10EECDC9BEF7097360F1979C91066C4 /* Frameworks */,
-				5BCFCD7898A526836FB487FBBBB028A9 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-InfiniteScrolling_Tests";
-			productName = "Pods-InfiniteScrolling_Tests";
-			productReference = C08BEA88EF3F5C2D7E60FE61210FBC5C /* Pods_InfiniteScrolling_Tests.framework */;
+			productReference = 745DEF350C53FC165C7D8298C803FE2E /* InfiniteScrolling.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 1030;
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1520;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
+				Base,
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 976EAC5C35B795DCA576B01E6AFB18E8 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FFC7FD53118BC479E910C6742AEDD6A5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				305A08631FC7247F49A96FD3526F4E1C /* InfiniteScrolling */,
-				4605A867A913B56DF4E858EAAA565417 /* Pods-InfiniteScrolling_Example */,
-				74608B0BA0F2DC599600AAA813E49ED3 /* Pods-InfiniteScrolling_Tests */,
+				F4CB4B1BF745EEC1837991EF466D9EDA /* InfiniteScrolling */,
+				D266C6A41D687EECD6BC8AAF8FB35760 /* Pods-InfiniteScrolling_Example */,
+				6CC52F780F4ECA010465756E6A159CC5 /* Pods-InfiniteScrolling_Tests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		1D890E6192F909458E0C45B1F80044D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0C529AD6C2011059979002E52B3991 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC50B08E22F4D43581F5D9EFBFB9E48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		6B31A7D92EF708EDF635647E9C39D8E0 /* Sources */ = {
+		115758E6D24A4ADB9C793291095E8A3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79D8E582C2E9878D892B9C8F6C468D4B /* Pods-InfiniteScrolling_Example-dummy.m in Sources */,
+				632117A7CCE205A0F3043D5899E88ED2 /* Pods-InfiniteScrolling_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F520A8687892E8463ED3336E4C74B94A /* Sources */ = {
+		E271B018FDCC660F492EE6DB9B2DAE66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43CF756B13C526BAAFD2B68CF0448696 /* Pods-InfiniteScrolling_Tests-dummy.m in Sources */,
+				AFB8BF6828C3B998C85A924E0FD4B520 /* Pods-InfiniteScrolling_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF5684B6973A85FB951B732FC6EA04AF /* Sources */ = {
+		EA3F832EF7457BFBAE49DFF69D6BFF2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F8119196B02EDA2C8C71B9DA0DFB342 /* InfiniteScrolling-dummy.m in Sources */,
-				9996A1871AC3888CABE6B5224A1A8E2C /* InfiniteScrollingBehaviour.swift in Sources */,
+				24588CBA8B6663982E275CFA8F22C5E1 /* InfiniteScrolling-dummy.m in Sources */,
+				AD0A6FCDF818EDFC1A109C9F18D5C1F6 /* InfiniteScrollingBehaviour.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8716295E17836A41CB662805AA944CCB /* PBXTargetDependency */ = {
+		B4B90C5A14371DA6FBB378BAA91AF96B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = InfiniteScrolling;
-			target = 305A08631FC7247F49A96FD3526F4E1C /* InfiniteScrolling */;
-			targetProxy = F41669D1C46BEB05DAC65B8CAFDE529C /* PBXContainerItemProxy */;
+			target = F4CB4B1BF745EEC1837991EF466D9EDA /* InfiniteScrolling */;
+			targetProxy = 6897197748E0327806F1816F3E23B625 /* PBXContainerItemProxy */;
+		};
+		F1EB083EF87CC38CC4DBBDE459243EA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-InfiniteScrolling_Example";
+			target = D266C6A41D687EECD6BC8AAF8FB35760 /* Pods-InfiniteScrolling_Example */;
+			targetProxy = 5FF236EAD4E4CB6AFBE42BB0A4621E5C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		045C53B0414F46E7E346E36C8D4DCF71 /* Release */ = {
+		1B5D1EB26EB47EB3B784CA44F4402B8E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4545C64D1C1867D4CE6E44B5DB60376 /* InfiniteScrolling.xcconfig */;
+			baseConfigurationReference = E90E740ECA527F88082F2B8B183A4487 /* Pods-InfiniteScrolling_Tests.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/InfiniteScrolling/InfiniteScrolling-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/InfiniteScrolling/Info.plist";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-InfiniteScrolling_Tests/Pods-InfiniteScrolling_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/InfiniteScrolling/InfiniteScrolling.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = InfiniteScrolling;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2A4707E490A1170E7974856385D6DC75 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7FC262B49C3F9181DC1A0CD9128733BB /* Pods-InfiniteScrolling_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-InfiniteScrolling_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-InfiniteScrolling_Example/Pods-InfiniteScrolling_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_InfiniteScrolling_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		50C6C00C4C1E4DDFAFAA2911BD60F41D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94015D599CDC5DBCD2578552839852CF /* Pods-InfiniteScrolling_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-InfiniteScrolling_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-InfiniteScrolling_Tests/Pods-InfiniteScrolling_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_InfiniteScrolling_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -474,57 +445,99 @@
 			};
 			name = Debug;
 		};
-		59478DB302B2583F4E00870AFD9740E4 /* Release */ = {
+		30ED40BA9BE56307AB691E124DD8F527 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0369819886A49DBA73237A14F70E9448 /* Pods-InfiniteScrolling_Tests.release.xcconfig */;
+			baseConfigurationReference = 7FB2C114669562158521D357865CD888 /* Pods-InfiniteScrolling_Example.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-InfiniteScrolling_Tests/Info.plist";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-InfiniteScrolling_Example/Pods-InfiniteScrolling_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-InfiniteScrolling_Tests/Pods-InfiniteScrolling_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MODULEMAP_FILE = "Target Support Files/Pods-InfiniteScrolling_Example/Pods-InfiniteScrolling_Example.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_InfiniteScrolling_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+		6B4466AA4CC8EA1C5049681DBE443B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5B76B691EF11008A483CD549A022D55 /* InfiniteScrolling.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/InfiniteScrolling/InfiniteScrolling-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/InfiniteScrolling/InfiniteScrolling-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/InfiniteScrolling/InfiniteScrolling.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_MODULE_NAME = InfiniteScrolling;
+				PRODUCT_NAME = InfiniteScrolling;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
@@ -532,17 +545,21 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -551,107 +568,43 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		645FA59668CA9A047C56AFA915EBD24E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4545C64D1C1867D4CE6E44B5DB60376 /* InfiniteScrolling.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/InfiniteScrolling/InfiniteScrolling-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/InfiniteScrolling/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/InfiniteScrolling/InfiniteScrolling.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = InfiniteScrolling;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8BF5187A4905F42AC80D4C2B21ED91E8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D391864B3A019A3BEF448BCF64D3FB2 /* Pods-InfiniteScrolling_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-InfiniteScrolling_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-InfiniteScrolling_Example/Pods-InfiniteScrolling_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_InfiniteScrolling_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
@@ -659,77 +612,196 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		BF81EE17E695C482E3080BF5742FB2D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F2F5A8F4E8A2C4B2E5140A99C779F52 /* InfiniteScrolling.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/InfiniteScrolling/InfiniteScrolling-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/InfiniteScrolling/InfiniteScrolling-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/InfiniteScrolling/InfiniteScrolling.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_MODULE_NAME = InfiniteScrolling;
+				PRODUCT_NAME = InfiniteScrolling;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C5B727CFB57AFB60AD7525BA2D9FE6E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E009022DFC508FF9196C55182B73FC4 /* Pods-InfiniteScrolling_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-InfiniteScrolling_Tests/Pods-InfiniteScrolling_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InfiniteScrolling_Tests/Pods-InfiniteScrolling_Tests.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D4F956CF0EFF8CC257BEED519A4A131B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E7A9719BF59BE60A731674B33C5742D /* Pods-InfiniteScrolling_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-InfiniteScrolling_Example/Pods-InfiniteScrolling_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InfiniteScrolling_Example/Pods-InfiniteScrolling_Example.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		0D7F14B6938B7F2CC28E5E104159BC7B /* Build configuration list for PBXNativeTarget "InfiniteScrolling" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
-				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+				6B4466AA4CC8EA1C5049681DBE443B49 /* Debug */,
+				BF81EE17E695C482E3080BF5742FB2D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5475884A6A8417B9892FCAF8146634C8 /* Build configuration list for PBXNativeTarget "Pods-InfiniteScrolling_Example" */ = {
+		0F09E45D2E79078147C771DB7F521328 /* Build configuration list for PBXNativeTarget "Pods-InfiniteScrolling_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8BF5187A4905F42AC80D4C2B21ED91E8 /* Debug */,
-				2A4707E490A1170E7974856385D6DC75 /* Release */,
+				D4F956CF0EFF8CC257BEED519A4A131B /* Debug */,
+				30ED40BA9BE56307AB691E124DD8F527 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7561F157C690763265A33BC53175CE73 /* Build configuration list for PBXNativeTarget "Pods-InfiniteScrolling_Tests" */ = {
+		1CA0F601AF0E5F509B789FA46A9055D2 /* Build configuration list for PBXNativeTarget "Pods-InfiniteScrolling_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				50C6C00C4C1E4DDFAFAA2911BD60F41D /* Debug */,
-				59478DB302B2583F4E00870AFD9740E4 /* Release */,
+				1B5D1EB26EB47EB3B784CA44F4402B8E /* Debug */,
+				C5B727CFB57AFB60AD7525BA2D9FE6E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E0A62350D4858F9CA00BEE940136276F /* Build configuration list for PBXNativeTarget "InfiniteScrolling" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				645FA59668CA9A047C56AFA915EBD24E /* Debug */,
-				045C53B0414F46E7E346E36C8D4DCF71 /* Release */,
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
